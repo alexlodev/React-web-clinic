@@ -1,0 +1,48 @@
+.buttonGreen {
+    background-color: var(--main-blue-color);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 10px 15px rgba(37, 155, 157, 0.564);
+    transition: 0.5s ease-in-out
+}
+.buttonGreen:hover {
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 15px rgba(37, 155, 157, 0.817);
+}
+.buttonGhost {
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    transition: 0.5s ease-in-out
+}
+.buttonGhost:hover {
+    background-color: #fff;
+    color: var(--main-blue-color);
+    transform: scale(2, 0.8);
+    text-decoration: none;
+
+}
+.buttonGhost2 {
+    padding: 20px;
+    color: rgb(129, 129, 129);
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.6s ease-in-out;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.105);
+}
+.buttonGhost2:hover { 
+    color: #fff;
+    background-color: var(--main-yellow-color);
+    box-shadow: 0px 10px 15px rgba(194, 196, 88, 0.817);
+    text-decoration: none;
+}

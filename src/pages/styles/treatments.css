@@ -1,0 +1,70 @@
+.header-tra {
+    padding: 100% 10px 50px 10px;
+    display: flex;
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(../media/tra-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header-info-tra {
+    width: 100%;
+    padding: 15% 0px;
+    
+}
+.title-tra, .p-tra{
+    color: #fff;
+}
+.header-img-tra {
+    background-image: url(../media/Path.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: none;
+    background-position: center center;
+}
+.header-img-tra img {
+    height: 90%;
+    opacity: 0;
+    max-width: 100%;
+}
+.box.treat {
+    padding: 0px;
+    margin: 0px;
+}
+.tra{
+    opacity: 0;
+    padding-top: 150px;
+    transition: 0.8s ease-in-out;
+}
+.fade {
+    opacity: 1;
+    transform: translateY(-1in)
+}
+@media only screen and (min-width: 839px) {
+    .header-tra {
+        background-image: none;
+        height: auto;
+        padding: 10% 10px 50px 10px;
+    }
+    .tra {
+        padding-top: 0px;
+    }
+    .p-tra{
+        color: inherit;
+    }
+    .box.treat {
+        padding: 50px;
+        margin: 20px;
+    }
+    .header-info-tra {
+        width: 60%;
+    }
+    .title-tra, .p-tra{
+        color: #000;
+    }
+    .header-img-tra {
+        display: inherit;
+    }
+}

@@ -1,0 +1,150 @@
+.first {
+    height: 2px;
+    background: var(--main-gray-color);
+    transform: rotate(45deg);
+    width: 44px;
+    border-radius: 2px;
+    position: absolute;
+}
+.second{
+    height: 2px;
+    background: var(--main-gray-color);
+    transform: rotate(-45deg);
+    width: 44px;
+    border-radius: 2px;
+    position: absolute;
+}
+.buttonClose {
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    height: 60px;
+    padding-top: 30px;
+    margin: 0px 20px 20px 220px;
+}
+.buttonOpen {
+    display: block; 
+    float: left;  
+    cursor: pointer;
+    margin: 26px 0px 0px 20px;
+}
+.menu.mobile{
+    margin: 0 auto;
+    text-align: center;
+    height: 70px;
+}
+.menu.mobile img {
+    margin-left: -60px;
+    
+}
+.buttonOpen span {
+    display: block;
+    height: 2px;
+    margin-bottom: 6px;
+    z-index: 999;
+    border-radius: 10px;
+    width: 30px;
+    background: rgb(114, 114, 114);
+}
+.buttonOpen span:nth-child(2){
+    width: 35px;
+}
+
+.menu-mobile {
+    z-index: 998;
+    width: 0px;
+    box-shadow: 2px 2px 40px rgba(74, 74, 74, 0.331);
+    height: 100%;
+    position: fixed;
+    display: flex;
+    left: -1000px;
+    text-align: left;
+    overflow: hidden;
+    justify-content: left;
+    flex-wrap: wrap;
+    background-color: #fff
+}
+
+.menu-list {
+    padding-top: 10vh;
+    margin-left: 20px; 
+    line-height: 2.2;
+    
+}
+.menu-list-active {
+    display: none
+}
+#but {
+    position: absolute;
+    width: 30px;
+    background-color: black;
+    height: 30px;
+}
+.menu-list hr {
+    width: 40px;
+    border: 2px solid
+}
+.menu-list h3 {
+    font-size: 20px;
+    color: var(--main-gray-color)
+}
+.menu-list a {
+    color: var(--main-blue-color);
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer-menu {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-menu img {
+    margin: 0 auto;
+    width: 30%;
+}
+.contact-info-footer {
+    width: 100%;
+    text-align: center;
+}.contact-info-footer hr {
+    margin: 0 auto;
+}.contact-info-footer h3 {
+    font-size: 20px;
+    color: var(--main-gray-color);
+}
+.nav {
+    width: 100%;
+}
+.menu {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+    margin-right: 10%;
+    display: inline;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(165, 164, 164, 0.399);
+}
+.menu a {
+    float: right;
+    color: gray;
+    margin: 20px 0;
+    text-align: center;
+    padding: 10px 10px;
+    opacity: 0.85;
+    font-family: 'Poppins', sans-serif;
+}
+.menu a:nth-child(2){
+    margin-right: 10%;
+}
+.menu a:hover{
+    opacity: 1;
+}
+.logo {
+    width: 80px;
+    margin: 5px 0;
+    margin-left: 10%;
+}
+.active {
+    font-weight: bold;
+}

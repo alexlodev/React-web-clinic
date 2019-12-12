@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a44a10c.chunk.css",
+    "main.js": "/static/js/main.e6b22463.chunk.js",
+    "main.js.map": "/static/js/main.e6b22463.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.c99ed502.chunk.css": "/static/css/2.c99ed502.chunk.css",
+    "static/js/2.9b78c44d.chunk.js": "/static/js/2.9b78c44d.chunk.js",
+    "static/js/2.9b78c44d.chunk.js.map": "/static/js/2.9b78c44d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.64e773847ab07998d1579ede85d3adc4.js": "/precache-manifest.64e773847ab07998d1579ede85d3adc4.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.c99ed502.chunk.css.map": "/static/css/2.c99ed502.chunk.css.map",
+    "static/css/main.8a44a10c.chunk.css.map": "/static/css/main.8a44a10c.chunk.css.map",
+    "static/media/treatments.css": "/static/media/tra-bg.4c5dff7b.jpg",
+    "static/media/form.css": "/static/media/bg-form-2.86a98b2b.webp",
+    "static/media/braces.svg": "/static/media/braces.b8097ffc.svg",
+    "static/media/check-up.svg": "/static/media/check-up.bda96bf2.svg",
+    "static/media/facilities.css": "/static/media/recepcion2.f9267877.jpg",
+    "static/media/dental-care.svg": "/static/media/dental-care.94a013f2.svg",
+    "static/media/doctor1.svg": "/static/media/doctor1.b272e6e0.svg",
+    "static/media/doctor2.svg": "/static/media/doctor2.0f684bcc.svg",
+    "static/media/handpiece.svg": "/static/media/handpiece.75d04b4a.svg",
+    "static/media/header.jpg": "/static/media/header.465e3de2.jpg",
+    "static/media/home.css": "/static/media/header.ef532aed.svg",
+    "static/media/logo.svg": "/static/media/logo.4293b03f.svg"
+  }
+}

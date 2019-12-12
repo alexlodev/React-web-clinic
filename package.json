@@ -1,0 +1,43 @@
+{
+  "name": "Sol-Oeste-Clinic",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "bootstrap": "^4.3.1",
+    "gsap": "^2.1.3",
+    "history": "^4.9.0",
+    "infinite-react-carousel": "^1.2.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-google-maps": "^9.4.5",
+    "react-helmet": "^5.2.1",
+    "react-loader-spinner": "^3.1.2",
+    "react-media": "^1.9.2",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-scrollmagic": "^2.1.1",
+    "scrollmagic": "^2.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

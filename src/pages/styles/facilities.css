@@ -1,0 +1,81 @@
+.header-fa{
+    background-image:linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.45)),url(../media/header-mob.jpg);    
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    transition: 0.4s linear;
+    position: relative;
+
+}
+.title-fa, .paragraph-fa {
+    color: #fff;
+}
+.header-info-fa {
+    position: absolute;
+    bottom: 200px;
+    opacity: 0;
+    left: 10px;
+}
+.wrapper-carrusel {
+    opacity: 1;
+}
+.carrusel-img {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    overflow-x: auto;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.img {
+    width: 15vw;
+    height: 15vw;
+    margin: 20px 5px;
+    max-width: 100px;
+    flex: 0 0 auto;
+    max-height: 100px;
+    border-radius: 5%;
+    background-position: center;
+    background-size: cover;
+    transition: 0.2s ease-in-out;
+    filter: brightness(0.7);
+}
+.img:hover {
+    filter: brightness(1);
+}
+.image1 {
+    background-image:url(../media/header-mob.jpg);    
+
+}
+.image2 {
+    background-image:url(../media/recepcion1.jpg);    
+
+    
+}.image3 {
+    background-image:url(../media/recepcion2.jpg);    
+
+    
+}.image4 {
+    background-image:url(../media/cubiculo1.jpg);    
+}.image5 {
+    background-image:url(../media/cubiculo2.jpg);    
+    
+}.image6 {
+    background-image:url(../media/cubiculo3.jpg);    
+    
+}.image7 {
+    background-image:url(../media/esterilizacion1.jpg);    
+    
+}
+@media only screen and (min-width: 1024px) {
+    .header-fa {
+        height: 800px;
+    }
+    .header-info-fa {
+        left: 200px;
+    }
+    .image1{
+        margin-left: 200px;
+    }
+} 
