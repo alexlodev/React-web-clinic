@@ -14,6 +14,9 @@ footer {
 .footer-info{
     margin: 20px;
 }
+.footer-info a {
+    padding: 0px;
+}
 .logo-footer{
     width: 90px;
     margin: 0 auto;

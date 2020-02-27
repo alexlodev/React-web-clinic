@@ -28,12 +28,12 @@
     cursor: pointer;
     margin: 26px 0px 0px 20px;
 }
-.menu.mobile{
+.menu-wrapper{
     margin: 0 auto;
     text-align: center;
     height: 70px;
 }
-.menu.mobile img {
+.menu-wrapper img {
     margin-left: -60px;
     
 }

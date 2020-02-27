@@ -16,6 +16,9 @@
 .section-about hr {
     margin: 0 auto;
 }
+.info-about{
+    padding: 60px 0;
+}
 @media only screen and (min-width: 839px) {
     .header-home.about {
         display: flex;
@@ -26,6 +29,9 @@
     }
     .header-info.about {
         position: relative;
+    }
+    .info-about{
+        padding: 0;
     }
 }
 /* wrapper-doctors */
@@ -40,12 +46,13 @@
 
 }
 .doctor-img {
-    width: 50%;
+    width: 100%;
+    max-width: 400px;
     transition: 1s ease-in-out;
 
 }
 .doctor-img img {
-    max-width: 400px;
+    width: 100%;
     transition: 1s ease-in-out;
 }
 .doctor-info {
@@ -127,5 +134,11 @@
 @media only screen and (min-width: 839px) {
     .wrapper-carrusel  {
         max-width: 40%;
+    }
+    .doctor-img img {
+        max-width: 400px;
+    }
+    .doctor-img {
+        width: 50%;
     }
 }

@@ -41,6 +41,8 @@ const Contact = ()=> {
         <React.Fragment>
             <Helmet> 
                 <title>Contacto</title>
+                <meta name="description" content="Realiza tu cita!"/>
+                <meta name="keywords" content="clinica,dental,santa ana,muelas, dientes, san jose, costa rica, dental care, teeth."/>
             </Helmet>
             <Navbar></Navbar>
             <div ref={selector =>{title = selector}} className="animation1">

@@ -7,13 +7,13 @@
     width: 50%;
     background-position: -15em;
     background-repeat: no-repeat;
-    padding: 150px 0px 100px 10vw;
+    padding: 250px 0px 150px 10vw;
 }
 .form-info p {
     color: #000;
 }
 .form-section {
-    padding: 150px 10vw 100px 100px;
+    padding: 250px 10vw 150px 100px;
     width: 50%;
     background-position: center;
     background-size: cover;
@@ -51,9 +51,12 @@ input, textarea, select {
     }
     .form-info {
         width: 100%;
+        padding: 150px 0px 100px 10vw;
     }
+    
     .form-section {
         width: 100%;
+        padding: 150px 10vw 100px 100px;
         padding: 40px;
     }
 }

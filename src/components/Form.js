@@ -26,9 +26,9 @@ class Form extends Component {
                         <br/>
                         <h3>Formulario de contacto:</h3>
                         <hr/>
-                        <form className='form' action="">
+                        <form className='form' method="POST" action="/Contacto" data-netlify="true">
                         <label>
-                            <input placeholder='Nombre' type="text" name='name'/>
+                            <input placeholder='Nombre' type="text" name='nombre'/>
                         </label>
                         <label>
                             <input placeholder='Número' type="text" name='numero'/>
@@ -37,7 +37,7 @@ class Form extends Component {
                             <input placeholder='Correo electrónico' type="text" name='correo-electronico'/>
                         </label> <br/>
                         <label>
-                            <textarea placeholder='Detalle:' name="detalle-de-la-cita" id="" cols="40" rows="2"></textarea>
+                            <textarea placeholder='Detalle:' name="Mensaje:" id="" cols="40" rows="2"></textarea>
                         </label>
                         <br/>
                         <button className='buttonGreen' type='submit'>Enviar</button>

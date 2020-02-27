@@ -30,8 +30,10 @@
     max-width: 100%;
 }
 .box.treat {
-    padding: 0px;
     margin: 0px;
+}
+.box img {
+    fill: red;
 }
 .tra{
     opacity: 0;
@@ -50,6 +52,9 @@
     }
     .tra {
         padding-top: 0px;
+    }
+    .boxConteiner {
+        width: 100%;
     }
     .p-tra{
         color: inherit;

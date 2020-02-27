@@ -15,7 +15,9 @@ const Home = ()=> {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Clínica Dental Sol Oeste - Inicio</title>
+        <title>Clínica Dental Sol Oeste</title>
+        <meta name="keywords" content="clinica,dental,santa ana,muelas, dientes, san jose, costa rica, dental care, teeth."/>
+        <meta name="description" content="Especialistas en el cuidado de su sonrisa, estamos ubicados en Santa Ana, Costa Rica."/>
       </Helmet>
       <Navbar />
       <main className="mainContent">
@@ -67,32 +69,32 @@ const Home = ()=> {
               <hr />
               <p className="textContein">
                 Tratamiento de nervio, elimina el tejido afectado y vuelve a la
-                "vida" a la pieza{" "}
+                "vida" a la pieza{" "} 
               </p>
+              <br/>
               <Link className="buttonGreen" href="#">
                 Ver más
               </Link>
             </div>
             <div className="box">
-              <img src={require("./media/check-up.svg")} alt="" />
-              <h4>Diagnostico</h4>
+              <img src={require("../assents-img/stetic.svg")} alt="" />
+              <h4>Estética dental</h4>
               <hr />
               <p className="textContein">
-                Tratamiento de nervio, elimina el tejido afectado y vuelve a la
-                "vida" a la pieza{" "}
+              Especialidad relacionada con la salud bucal y la armonía estética de la boca en su totalidad.
               </p>
               <Link href='#' className="buttonGreen" >
                 Ver más
               </Link>
             </div>
             <div className="box">
-              <img src={require("./media/braces.svg")} alt="" />
+              <img src={require("../assents-img/braces.svg")} alt="" />
               <h4>Ortodoncia</h4>
               <hr />
               <p className="textContein">
-                Tratamiento de nervio, elimina el tejido afectado y vuelve a la
-                "vida" a la pieza{" "}
+                Tratamiento encargado de corregir la mala posición de las piezas dentales. 
               </p>
+              <br/>
               <Link className="buttonGreen" href="#">
                 Ver más
               </Link>
@@ -205,7 +207,7 @@ const Home = ()=> {
               />
             </div>
           </Media>
-          <Link className="buttonGhost2" to='/tratamientos'>
+          <Link className="buttonGhost2" to='/nosotros'>
             Conocer todo el equipo
           </Link>
         </section>

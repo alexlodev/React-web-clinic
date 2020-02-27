@@ -14,8 +14,8 @@ class Footer extends Component {
                         <div className='footer-info 1'>
                             <h3>Sobre nosotros</h3>
                             <hr/>
-                            <Link href="#">Quienes somos</Link> <br/>
-                            <Link href="#">Instalaciones</Link> <br/>
+                            <Link to="/Nosotros">Quienes somos</Link> <br/>
+                            <Link to="/Instalaciones">Instalaciones</Link> <br/>
                         </div>
                         <div className='footer-info 2'>
                             <h3>Tratamientos</h3>
@@ -34,7 +34,7 @@ class Footer extends Component {
                                 y 100m este. Sobre Calle Miramontes. <br/>
                                 Teléfono: 2582-0782 <br/>
                                 WhatsApp: 8353-5259 <br/>
-                                Correo: info@dentalsoloeste.comb <br/>
+                                Correo: info@dentalsoloeste.com<br/>
                                 </p>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ class Footer extends Component {
                     {/* <img className='facebook-logo' src={require('./media/facebook-logo.svg')} alt="facebook"/> */}
                     <hr className='separator-footer'/>
                     <div className="footer-bottom">
-                        <Link href="https://www.alex-lo.com">Design by alex</Link>
+                        <a href="https://www.alex-lo.com">Design by alex</a>
                         <p>© 2019 Clínica Sol Oeste. All rights reserved.</p>
                     </div>
                 </footer>

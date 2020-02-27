@@ -5,14 +5,14 @@ import Footer from "../components/Footer";
 import "../pages/styles/facilities.css";
 import "../components/styles/buttons.css";
 import {  TweenMax, Power3 } from 'gsap';
-////images
-// import image1 from './media/gallery1';
-// import image2 from './media/gallery2';
-// import image3 from './media/gallery3';
-// import image4 from './media/gallery4';
-// import image5 from './media/gallery5';
-// import image6 from './media/gallery6';
-// import image7 from './media/gallery7';
+///images
+import image1 from './media/gallery1.jpg';
+import image2 from './media/gallery2.jpg';
+import image3 from './media/gallery3.jpg';
+import image4 from './media/gallery4.jpg';
+import image5 from './media/gallery5.jpg';
+import image6 from './media/gallery6.jpg';
+import image7 from './media/gallery7.jpg';
 
 
 const Facilities = ()=> {
@@ -33,26 +33,29 @@ const Facilities = ()=> {
     //Changing backgrond header
 
     const changeBg = {
+        
         bg1 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/SlUpw9e.jpg)`
+            console.log(image1);
+            
+            document.getElementById('header-fa').style.backgroundImage = `url(${image7})`
         },
         bg2 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/auB0347.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image1})`
         },
         bg3 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/2Qv4m9X.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image2})`
         },
         bg4 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/C5KBxhF.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image3})`
         },
         bg5 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/0WtDwfF.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image4})`
         },
         bg6 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/0WtDwfF.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image5})`
         },
         bg7 : () => {
-            document.getElementById('header-fa').style.backgroundImage = `url(https://i.imgur.com/agkUaKG.jpg)`
+            document.getElementById('header-fa').style.backgroundImage = `url(${image6})`
         },
     }
     
@@ -61,6 +64,8 @@ const Facilities = ()=> {
         <React.Fragment >
         <Helmet>
           <title>Instalaciones</title>
+          <meta name="keywords" content="clinica,dental,santa ana,muelas, dientes, san jose, costa rica, dental care, teeth."/>
+          <meta name="description" content="Conozca nuestras mordernas instalaciones, donde encontrara el mejor equipo para todos los tratamientos." />
         </Helmet>
             <Navbar></Navbar>
                 <div id='header-fa' className='header-fa'>

@@ -27,13 +27,15 @@ class Navbar extends Component {
                 <Media query={{maxWidth:838}}>
                 
                 <div className='nav'> {/*Mobile Menu*/}
-                    <div className="menu mobile">
+                    <div className="menu-wrapper">
                     <div onClick={this.openMenu} className='buttonOpen'>
                             <span>&nbsp;</span>
                             <span>&nbsp;</span>
                             <span>&nbsp;</span>
                     </div>
+                    <Link to="/">
                     <img className='logo' src={logo} alt=""/>
+                    </Link>
 
                     </div>
                     <div className="menu-mobile">

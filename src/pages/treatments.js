@@ -32,6 +32,7 @@ function Treatments() {
     <React.Fragment>
       <Helmet>
         <title>Tratamientos</title>
+        <meta name="description" content="Conozca nuestras mordernas instalaciones, donde encontrara el mejor equipo para todos los tratamientos." />
       </Helmet>
       <Navbar />
       <header id="scrollStarts" className="header-tra">
@@ -73,7 +74,7 @@ function Treatments() {
             </p>
             <hr />
             <br />
-            <div className="boxConteiner conteiner ">
+            <div className="boxConteiner">
               <div className=" box treat">
                 <img src={require("./media/dental-care.svg")} alt="" />
                 <h4>Endodoncia</h4>
@@ -87,60 +88,58 @@ function Treatments() {
                 </Link>
               </div>
               <div className=" box treat">
-                <img src={require("./media/check-up.svg")} alt="" />
-                <h4>Diagnostico</h4>
+                <img src={require("../assents-img/stetic.svg")} alt="" />
+                <h4>Estética Dental</h4>
                 <hr />
                 <p className="textContein">
-                  Tratamiento de nervio, elimina el tejido afectado y vuelve a
-                  la "vida" a la pieza{" "}
+                Especialidad relacionada con la salud bucal y la armonía estética de la boca en su totalidad.
                 </p>
                 <Link className="buttonGreen" to="#">
                   Ver más
                 </Link>
               </div>
               <div className=" box treat">
-                <img src={require("./media/braces.svg")} alt="" />
+                <img src={require("../assents-img/braces.svg")} alt="" />
                 <h4>Ortodoncia</h4>
                 <hr />
                 <p className="textContein">
-                  Tratamiento de nervio, elimina el tejido afectado y vuelve a
-                  la "vida" a la pieza{" "}
+                Tratamiento encargado de corregir la mala posición de las piezas dentales. 
                 </p>
                 <Link className="buttonGreen" to="#">
                   Ver más
                 </Link>
               </div>
               <div className=" box treat">
-                <img src={require("./media/braces.svg")} alt="" />
-                <h4>Ortodoncia</h4>
+                <img src={require("../assents-img/implant.svg")} alt="" />
+                <h4>Implantes dentales</h4>
                 <hr />
                 <p className="textContein">
-                  Tratamiento de nervio, elimina el tejido afectado y vuelve a
-                  la "vida" a la pieza{" "}
+                    Consiste en el reemplazo de una o varias piezas dentales utilizando materiales biocampatibles.
                 </p>
+                <br/>
                 <Link className="buttonGreen" to="#">
                   Ver más
                 </Link>
               </div>
               <div className=" box treat">
-                <img src={require("./media/braces.svg")} alt="" />
-                <h4>Ortodoncia</h4>
+                <img src={require("../assents-img/ciru.svg")} alt="" />
+                <h4>Cirugía dental</h4>
                 <hr />
                 <p className="textContein">
-                  Tratamiento de nervio, elimina el tejido afectado y vuelve a
-                  la "vida" a la pieza{" "}
+                    Especialidad dental encargada de realizar multiples tratamientos quirujicos.
                 </p>
+                <br/>
+                <br/>
                 <Link className="buttonGreen" to="#">
                   Ver más
                 </Link>
               </div>
               <div className=" box treat">
-                <img src={require("./media/braces.svg")} alt="" />
-                <h4>Ortodoncia</h4>
+                <img src={require("../assents-img/perio.svg")} alt="" />
+                <h4>Periodoncia</h4>
                 <hr />
                 <p className="textContein">
-                  Tratamiento de nervio, elimina el tejido afectado y vuelve a
-                  la "vida" a la pieza{" "}
+                    Especialidad dental encargada del cuidado y prevencion del tejido periodontal(tejido encargado de la sujecion de la pieza dental)
                 </p>
                 <Link className="buttonGreen" to="#">
                   Ver más
